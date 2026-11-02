@@ -1,4 +1,6 @@
 #pragma once
+#include <memory>
+
 
 template <typename T>
 class myContainer {
@@ -98,7 +100,6 @@ public:
     uint64_t show_capacity() {
         return capacity;
     }
-
     ~myContainer() {
         delete[] container;
         std::cout << "container deleted" << std::endl;

@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(JETBRAINS main.cpp
         myList.h
         myContainer.h
+        linked_list.h
+        hashmap.h
 )
